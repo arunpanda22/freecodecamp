@@ -1,0 +1,119 @@
+ <!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>Arun Panda</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+	
+
+<link rel="stylesheet" type="text/css" href="sidebar.css">
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+	<nav class="navbar navbar-inverse">
+		
+		<div class="container-fluid">
+		<!--LOGO -->
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+				<a href="#" class="navbar-brand">Arun Panda</a>
+			</div>
+
+		<!--Menu Items -->
+		<div class="collapse navbar-collapse"  id="mainNavBar">
+
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li ><a href="#">About</a></li>
+				
+				
+		<!--Dropdown Menu-->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle ="dropdown">My Thoughts <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Building teams</a></li>
+							<li><a href="#">What Sellers Want</a></li>
+							<li><a href="#">Amazon Udaan</a></li>
+							<li><a href="#">Costco model for India</a></li>
+						</ul>
+				</li>
+				<li ><a href="#">Contact Me</a></li>
+			</ul>
+			<!--- Right Aligned menu-->
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Logout</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	
+<div id="wrapper">
+<!--main Content-->	
+<div id="page-content-wrapper">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12 col-md-6 col-md-offset-1" style="background: lightblue;">
+			<a href="#" class="btn btn-success" id="menu-toggle">Toggle Menu</a>
+			<h1>Introduction</h1>
+			<p>I am a senior management professional with a proven record of success in increasing enterprise value with a perfect blend of entrepreneurial skill sets, motivation, People leadership, analytical, strategic planning capabilities with operational and execution experience to develop and execute ideas and strategies that produce results. </p> 
+
+		<p>With an expertise in people leadership, as head of Alternative stay category, I used my experience in leading and building teams, setting strategic direction and creating the path for excellence to create and establish the practices in a new category. I believe in staying abreast with knowledge in  subjects not only pertaining to my Category, but also other category as the trends (both business and seasonal) affect all the categories.</p>
+
+	<p>I’m particularly adept at building and training teams that fight hard, fight fast and fight to win. </p>
+
+	<p>I have built(both selected and trained) high-performing teams of Business Development managers, Account Managers and On-Boarding Managers, who evangelize the concept of Homestay across India through on-call engagement, Events and one to one sales interaction creating on an Average 200+ new Homestay owners per week, growing the Alternative Stay category much faster than other categories.</p>
+
+<p>I enjoy all aspects of my job, especially understanding business objectives, formulate and apply entrepreneurial principles, charter innovative thinking into swift and actionable revenue generating initiatives, plan the execution from scratch, setting up and fine-tuning operations and managing for bottom line results to drive business growth in the fast changing  e-commerce startup world .</p>
+
+<p>I truly believe that relationship management with all stakeholders is key to drive business success. Also, one can achieve true business success through metric based management of teams where teams are empowered and are accountable.</p>
+
+
+
+		</div>
+	</div>
+</div>
+	
+</div>
+<!--sidewrapper-->	
+<div id="sidebar-wrapper">
+	<ul class="sidebar-nav">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About Me</a></li>
+		<li><a href="#">My Thoughts</a></li>
+		<li><a href="#">Contact Me</a></li>
+	</ul>
+</div>
+
+</div>
+
+<!--Menu toggle script-->
+
+<script >
+	$("#menu-toggle").click( function (e){
+		e.preventDefault();
+		$("#wrapper").toggleClass("menuDisplayed");
+	})
+</script>
+
+	
+	
+
+</body>
+</html>
