@@ -1,12 +1,22 @@
+
+ h1 {
+    font-family: Lobster, Monospace;
+    font-color: #0000;
+    font-size: 50px;
+  }
+
+  p {
+    font-family: Merriweather, Monospace;
+  }
 /*Sidebar Wrapper*/
 #sidebar-wrapper{
 	z-index: 1;
 	position: absolute;
-	width: 0;
+	width: 10;
 	height: 100%;
 	overflow-y: hidden;
 	background:  #2c3e50;
-	border: 2px solid red;
+	border: none;
 	opacity: 0.9;
 }
 
@@ -15,34 +25,57 @@
 	width: 100%;
 	position: absolute;
 	padding: 15px;
-	border: 5px solid green;
+	border: none;
+	margin-left: 10px;
 
+
+}
+
+#Intro-box {
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+	
+	border-radius: 50px;
 }
 
 /* Change Width of sidebar to display it*/
-#wrapper.menuDisplayed #sidebar-wrapper{
+.menuDisplayed #sidebar-wrapper{
 	width: 250px;
 }
 
-#wrapper.menuDisplayed #sidebar-wrapper{
-	padding-left: 250px;
+.menuDisplayed #sidebar-wrapper{
+	padding-left: 50px;
 }
+
+.menuDisplayed #page-content-wrapper{
+	margin-left: 200px;
+}
+
+
 
 /*Sidebar Styling*/
 .sidebar-nav{
-	padding: 0;
+	padding:10px;
 	list-style: none;
 }
 
 .sidebar-nav li{
 	text-indent: 20px;
 	line-height: 40px;
+padding: 0px;
+}
+
+#Intro-box{
+	padding: 0px
+	margin-left:0px;
+	margin-right: 0px;
+	border: none;
 }
 
 .sidebar-nav li a{
 	display: block;
 	text-decoration: none;
 	color: #ddd;
+	
 
 }
 
